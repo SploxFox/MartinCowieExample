@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // Important! You need "composite" to be true on your subprojects!
+    "composite": true,
+
+    "target": "es3",                          
+    "module": "commonjs",                     
+    "outDir": "./build",                     
+    "rootDir": "./src",                       
+    "strict": true,                          
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,                    
+    "forceConsistentCasingInFileNames": true 
+  }
+}
