@@ -26,8 +26,13 @@
         "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
         "affectsGlobalScope": true
       },
+      "../componenta/build/main.d.ts": {
+        "version": "c077f15cc666b47d10f0921d4dc348fb01c33574bd2c3ba87f237782248ab9c1",
+        "signature": "c077f15cc666b47d10f0921d4dc348fb01c33574bd2c3ba87f237782248ab9c1",
+        "affectsGlobalScope": false
+      },
       "./src/main.ts": {
-        "version": "f0bc24a8a21b190c42264efe7b0d7a02a459e3bbdbdc16dadfa850e86a8844b4",
+        "version": "626afa35df6969f2e0416bb6420849df76980439bc65dac3bf71528d2ef4a48d",
         "signature": "1e65e48cd9faac39a692441ed1080ccaae0cc100f88bcc7375cef3bdc5e2d788",
         "affectsGlobalScope": false
       }
@@ -44,7 +49,11 @@
       "forceConsistentCasingInFileNames": true,
       "configFilePath": "./tsconfig.json"
     },
-    "referencedMap": {},
+    "referencedMap": {
+      "./src/main.ts": [
+        "../componenta/build/main.d.ts"
+      ]
+    },
     "exportedModulesMap": {},
     "semanticDiagnosticsPerFile": [
       "../../../../appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts",
@@ -52,6 +61,7 @@
       "../../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts",
       "../../../../appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts",
       "../../../../appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../componenta/build/main.d.ts",
       "./src/main.ts"
     ]
   },
